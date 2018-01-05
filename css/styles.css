@@ -1,6 +1,9 @@
 .jumbotron{
   background: url('../img/bkgrd.jpg');
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 .jumbotron h1{
   padding-top: 100px;
@@ -8,4 +11,18 @@
   font-size: 30px;
   font-family: sans-serif;
 
+}
+
+.text-fade {
+  font-size: 40px;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(white, #595959);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img{
+  width: 100%;
+  border-radius: 5%;
 }
