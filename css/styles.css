@@ -1,28 +1,70 @@
 .jumbotron{
   background: url('../img/bkgrd.jpg');
   height: 250px;
-  margin-left: 10px;
-  margin-right: 10px;
+
 
 }
 .jumbotron h1{
   padding-top: 100px;
-  color: silver;
+  color: white;
   font-size: 30px;
   font-family: sans-serif;
 
 }
 
-.text-fade {
-  font-size: 40px;
-  font-family: Helvetica,Arial,sans-serif;
-  font-weight: bold;
-  background: -webkit-linear-gradient(white, #595959);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 img{
   width: 100%;
   border-radius: 5%;
 }
+
+#github{
+  float: right;
+  width: 30px;
+}
+.socialleft{
+  float: left;
+}
+.socialright{
+  float: right;
+}
+
+.social img{
+  width: 45px;
+  margin: 5px;
+}
+
+.social li{
+  list-style-type: none;
+  color: white;
+}
+
+.navtitle{
+  border-bottom: 4px solid white;
+  color: white;
+}
+
+
+ul{
+  /*try to fix this to be more specific if you have time*/
+  padding: 2px;
+}
+
+.container{
+  margin-left: 30px;
+}
+body{
+  /*background: linear-gradient(black 300px, white )*/
+  background-image: url('../img/tropical.png');
+}
+
+.well{
+  border-radius: 10px;
+  border: 0px;
+
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
