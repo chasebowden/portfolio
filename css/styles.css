@@ -1,10 +1,11 @@
 .jumbotron{
-  background: url('../img/angkor.jpg');
+  background: url('../img/bkgrd.jpg');
+  height: 250px;
 }
-img{
-  width: 100%;
-}
-#profile{
-  border-radius: 20%;
-  border: 6px solid black;
+.jumbotron h1{
+  padding-top: 100px;
+  color: silver;
+  font-size: 30px;
+  font-family: sans-serif;
+
 }
