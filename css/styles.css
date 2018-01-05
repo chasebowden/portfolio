@@ -1,0 +1,10 @@
+.jumbotron{
+  background: url('../img/angkor.jpg');
+}
+img{
+  width: 100%;
+}
+#profile{
+  border-radius: 20%;
+  border: 6px solid black;
+}
